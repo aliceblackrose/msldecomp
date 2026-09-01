@@ -36,7 +36,7 @@ Examples from the actual envelope metadata:
 | 61 | `ReqBattleEnd` | `RspBattleEnd` |
 | 117 | `ReqServerTime` | `RspServerTime` |
 
-The full build-specific snapshot is in [`docs/msl-1.0.260722032-packets.json`](docs/msl-1.0.260722032-packets.json).
+See [`docs/MSL_1.0.260722032.md`](docs/MSL_1.0.260722032.md) for build-specific packet/tag examples. Running `inspect` or `packets` emits the complete `packets.json` catalog for the input build.
 
 ## Usage
 
@@ -127,8 +127,7 @@ src/
 └── native.rs     # optional full IL2CPP dump integration
 
 docs/
-├── MSL_1.0.260722032.md
-└── msl-1.0.260722032-packets.json
+└── MSL_1.0.260722032.md
 ```
 
 ## Scope
