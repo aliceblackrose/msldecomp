@@ -1,0 +1,7 @@
+/target/
+/out/
+/native-out/
+*.xapk
+*.apk
+*.so
+global-metadata.dat
